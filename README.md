@@ -6,8 +6,6 @@
 * [The Elastic Beanstalk Command Line Interface](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3.html)
 * VPC with Public and Private subnets is required
     - CloudFormation Template: [VPC-Public-And-Private](https://raw.githubusercontent.com/aurbac/msg-app-backend/master/vpc/AURBAC-VPC-Public-And-Private.json)
-    - 
-
 
 ## Clone Github Project
 
