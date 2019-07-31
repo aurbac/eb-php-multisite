@@ -1,15 +1,12 @@
 # PHP Multisite with AWS Elastic Beanstalk
 
-## VPC with Public and Private subnets is required
-
-CloudFormation Template: [VPC-Public-And-Private](https://raw.githubusercontent.com/aurbac/msg-app-backend/master/vpc/AURBAC-VPC-Public-And-Private.json)
-
-Replace values in [**.ebextensions/vpc.config**](.ebextensions/vpc.config) with the resources created by the CloudFormation template or your own vpc and subnets.
-
-### Requirements
+## Requirements
 
 * [AWS Command Line Interface](https://aws.amazon.com/cli/)
 * [The Elastic Beanstalk Command Line Interface](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3.html)
+* VPC with Public and Private subnets is required
+    - CloudFormation Template: [VPC-Public-And-Private](https://raw.githubusercontent.com/aurbac/msg-app-backend/master/vpc/AURBAC-VPC-Public-And-Private.json)
+    - Replace values in [**.ebextensions/vpc.config**](.ebextensions/vpc.config) with the resources created by the CloudFormation template or your own vpc and subnets.
 
 
 ## Clone Github Project
@@ -19,7 +16,7 @@ git clone https://github.com/aurbac/eb-php-multisite.git
 cd eb-php-multisite
 ```
 
-## Change Virtual Hosts for your Apache server
+### Change Virtual Hosts for your Apache server
 
 Edit the file [**.ebextensions/vhosts.config**](.ebextensions/vhosts.config) with your own domains.
 
