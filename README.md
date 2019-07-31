@@ -4,7 +4,13 @@
 
 CloudFormation Template: [VPC-Public-And-Private](https://raw.githubusercontent.com/aurbac/msg-app-backend/master/vpc/AURBAC-VPC-Public-And-Private.json)
 
-Replace values in [**.ebextensions/vpc.config**](.ebextensions/vpc.config) with the resources created by the CloudFormation template.
+Replace values in [**.ebextensions/vpc.config**](.ebextensions/vpc.config) with the resources created by the CloudFormation template or your own vpc and subnets.
+
+### Requirements
+
+* [AWS Command Line Interface](https://aws.amazon.com/cli/)
+* [The Elastic Beanstalk Command Line Interface](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3.html)
+
 
 ## Clone Github Project
 
