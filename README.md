@@ -19,6 +19,13 @@ cd eb-php-multisite
 * Edit the file [**.ebextensions/vhosts.config**](.ebextensions/vhosts.config) with your own domains.
 * Replace values in [**.ebextensions/vpc.config**](.ebextensions/vpc.config) with the resources created by the CloudFormation template or your own vpc and subnets.
 
+### Commit changes
+
+``` bash
+git add .
+git commit -m "Changes for VPC and subnets"
+```
+
 ## Initialize Elastic Beanstalk Project
 
 ``` bash
