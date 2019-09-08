@@ -1,11 +1,22 @@
 # PHP Multisite with AWS Elastic Beanstalk
 
+![Diagram](images/diagram.png)
+
 ## Requirements
 
-* [AWS Command Line Interface](https://aws.amazon.com/cli/)
-* [The Elastic Beanstalk Command Line Interface](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3.html)
-* VPC with Public and Private subnets is required
-    - You can use the following [CloudFormation Template to create your VPC-Public-And-Private](https://raw.githubusercontent.com/aurbac/msg-app-backend/master/vpc/AURBAC-VPC-Public-And-Private.json)
+* [AWS Command Line Interface](https://aws.amazon.com/cli/).
+    - With IAM privileges.
+* [The Elastic Beanstalk Command Line Interface](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3.html).
+* VPC with Public and Private subnets is required.
+    - You can use the following [CloudFormation Template to create your VPC-Public-And-Private](https://raw.githubusercontent.com/aurbac/msg-app-backend/master/vpc/AURBAC-VPC-Public-And-Private.json).
+
+## Using your Cloud9 environment
+
+### Install EB CLI 
+
+``` bash
+pip install awsebcli --upgrade --user
+```
 
 ## Clone Github Project
 
